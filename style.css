@@ -254,7 +254,7 @@ li {
   .container {
     flex-direction: column;
     width: 20rem;
-    height: 30rem;
+    height: 31rem;
     justify-content: center;
     align-items: center;
   }

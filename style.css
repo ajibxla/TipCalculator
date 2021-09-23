@@ -37,7 +37,7 @@ body {
 }
 
 .attribution {
-  display: none;
+  display: block;
 }
 
 .heading {

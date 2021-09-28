@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <p class="heading">SPLI <br />TTER</p>
+    <p class="read-me">
+      Dear All, this is still a WIP so it is not fully functional yet</p>
+    </p>
+
+    <ul>
+      <li>Custom tip feature is not live yet</li>
+      <li>"RESET"after every computation</li>
+      <li>Happy splitting</li>
+    </ul>
+    
+    <div class="container">
+      <article class="tip-calculator">
+        <div class="calculator-input">
+          <div class="bill-input">
+            <p class="bill-text">Bill</p>
+            <form class="bill-holder input-holder">
+              <input
+                type="number"
+                placeholder="0"
+                class="bill-input-text input-text"
+              />
+              <img src="./images/icon-dollar.svg" alt="" class="icon" />
+            </form>
+          </div>
+          <div class="tip-input">
+            <p class="tip-text bill-text">Select Tip %</p>
+            <div class="tip-home">
+              <div class="select-tip">
+                
+                    <button class="tips active"data-id = '5'>5%</button>
+                
+                
+                   <button class="tips" data-id = '10'>10%</button>
+                
+                
+                   <button class="tips"data-id = '15'>15%</button>
+                
+                
+                          <button class="tips"data-id = '25'>25%</button>
+                
+                
+                   <button class="tips" data-id = '50'>50%</button>
+                
+                <form action="" class="form-custom-tip">
+                  <input type="number" placeholder="Custom" class="custom-tip" />
+                </form>
+            </div>
+            </div>
+          </div>
+
+          <div class="people">
+            <p class="people-text bill-text">
+              Number of People
+              <span class="people-span">Can't be zero</span>
+            </p>
+            <form class="people-holder input-holder">
+              <div action="" class="form2">
+                <input
+                  type="number"
+                  name="number"
+                  placeholder="0"
+                  class="people-input-text input-text"
+                />
+              </div>
+
+              <img src="./images/icon-person.svg" alt="" class="icon" />
+            </form>
+          </div>
+          
+        </div>
+      </article>
+      <article class="tip-display">
+        <div class="tip-section">
+          <div class="tip-amount display-flex">
+            <p class="amount-display-text display-text">
+              Tip Amount <br /><span class="span-text">/ person</span>
+            </p>
+            <p class="amount-display display-number">$0.00</p>
+          </div>
+          <div class="total-amount display-flex">
+            <p class="total-display-text display-text">
+              Total Amount <br /><span class="span-text">/ person</span>
+            </p>
+            <p class="total-display display-number">$0.00</p>
+          </div>
+        </div>
+
+        <button id="btn">Reset</button>
+      </article>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Okungbaye Ajibola</a>.
+    </div>
+
+    <script src="test2.js"></script>
+  </body>
+</html>

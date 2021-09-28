@@ -37,7 +37,7 @@ body {
 }
 
 .attribution {
-  margin-top:2rem;
+  margin-top: 5rem;
 }
 
 .heading {
@@ -93,6 +93,11 @@ li {
   color: var(--dark-grayish-cyan);
   font-size: 10px;
   font-weight: var(--font-700);
+}
+
+.tips.active {
+  background-color: var(--light-grayish-cyan);
+  color: var(--very-dark-cyan);
 }
 
 .bill-input {
@@ -159,10 +164,6 @@ li {
   border-radius: 3px;
 }
 
-.select-tip button:hover {
-  background-color: var(--light-grayish-cyan);
-  color: var(--very-dark-cyan);
-}
 .people-span {
   display: none;
 }

@@ -250,7 +250,7 @@ li {
 
 @media screen and (min-device-width: 300px) and (max-device-width: 600px) {
   body {
-    min-height: 100vh;
+    height: 100%;
   }
   .container {
     flex-direction: column;
